@@ -113,10 +113,7 @@
     }
 }
 
-@media screen and (min-width: 769px) {
-  .ui-hide-desktop-only {
-    display: none !important;
-  }
+@media screen and (max-width: 769px) {
 }
 
 @media screen and (max-width: 991px) {
@@ -130,6 +127,19 @@
     margin: 0;
     margin-bottom: 1rem;
 }
+
+.ui-hide-mobile-only {
+  display: none !important;
+}
+
+.line{
+  display: none;
+}
+
+.ui-show-mobile-only {
+  display: block !important;
+}
+
 
 .boomics p {
   color: #B2C2E3 !important;
