@@ -1095,3 +1095,7 @@ background-color: #FF1887;
   top: 3em;
   left: 3em;
 }
+
+.ui-hide-ipad-only {
+  display: none !important;
+}
