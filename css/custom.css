@@ -259,6 +259,14 @@ form textarea {
   height: 100vh;
 }
 
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  margin: 0;
+  padding: 5.5rem 2.5rem !important;
+  position: relative;
+}
+
 .title, .title span {
   font-family: 'montserratbold';
   font-size: 34px;
@@ -270,10 +278,22 @@ form textarea {
   line-height: 40px;
 }
 
-.title.title-large, .title.title-large span{
-  font-size: 60px;
-  line-height: 65px;
+.title-body, .title-body span {
+  font-size: 30px;
+  font-weight: 700 !important;
+  line-height: 64px;
 }
+
+.eco h1{
+  line-height: 64px;
+}
+
+.eco p{
+  line-height: 28px;
+  color: #B2C2E3 !important;
+  
+}
+
 
 .title-intro{
   font-family: 'gilroybold';
@@ -621,7 +641,7 @@ footer ul a{
 }
 
 .card-blue {
-  background-color: #410187;
+  background-color: #172646 !important;
 }
 .z--box{
   padding: 1.5rem 2rem;
@@ -685,7 +705,7 @@ footer ul a{
 
  .autolock--bx {
   background-color: #152340;
-  margin-top: 2.8rem;
+  margin-top: 3rem;
   padding: 0.8rem 1.5rem;
   border-radius: 10px;
   display: flex;
@@ -732,12 +752,11 @@ footer ul a{
   min-width: 197px;
   border-radius: 100px;
 }
-
 .navbar-brand {
   display: inline-block;
   padding-top: 0.359375rem;
   padding-bottom: 0.359375rem;
-  margin-right: 6rem !important;
+  margin-right: 10rem !important;
   font-size: 1.125rem;
   line-height: inherit;
   white-space: nowrap;
@@ -1038,9 +1057,41 @@ background-color: #FF1887;
   left: 14em;
   top: 0.1em;
 }
+.earnpic-2 .arrow-yellow{
+  position: relative;
+  left: 14em;
+  top: 0.1em;
+}
+.earnpic-2 h2{
+  padding-top: 2em !important;
+  padding-left: 2em !important;
+  padding-bottom: 1em;
+  color: #B2C2E3 !important;
+}
+
+.earnpic-3 .arrow-yellow{
+  position: relative;
+  left: 14em;
+  top: 0.1em;
+}
+.earnpic-3 h2{
+  padding-top: 2em !important;
+  padding-left: 2em !important;
+  padding-bottom: 1em;
+  color: #B2C2E3 !important;
+}
+
 
 .boomics p{
 
   color: #B2C2E3 !important;
   margin-top: -0.7em !important;
+}
+
+.feature img{
+  width: 20% !important;
+  position: relative;
+  z-index: 1;
+  top: 3em;
+  left: 3em;
 }
