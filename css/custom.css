@@ -11,6 +11,10 @@ ol {
   list-style: none;
 }
 
+.bg-hyp{
+  background-color: #19294B !important;
+}
+
 /* brand colors */
 .brandv-yellow, .brandv-yellow a, .brandv-yellow span{
   color: #F5B203 !important;
@@ -263,7 +267,7 @@ form textarea {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   margin: 0;
-  padding: 5.5rem 2.5rem !important;
+  padding: 5rem 1.3em !important;
   position: relative;
 }
 
@@ -1035,9 +1039,18 @@ background-color: #FF1887;
 
 
 .percentpic-2 img{
-  width: 35% !important;
+  width: 36% !important;
 }
 .percentpic-2 h2{
+  padding-top: 2em !important;
+  padding-left: 1em !important;
+  padding-bottom: 1em;
+  color: #B2C2E3 !important;
+}
+.percentpic-3 img{
+  width: 43% !important;
+}
+.percentpic-3 h2{
   padding-top: 2em !important;
   padding-left: 1em !important;
   padding-bottom: 1em;
@@ -1096,4 +1109,85 @@ background-color: #FF1887;
   left: 3em;
 }
 
+.feature {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none;
+}
+
+
+
+
+
+.anti{
+  padding-bottom: 6.8em !important;
+}
+.anti-d{
+  padding-bottom: 3.5em !important;
+}
+
+.minimum{
+  padding-bottom: 26px !important;
+}
+.auto-l{
+  padding-bottom: 7em !important;
+}
+
+.anti-whale{
+  padding-bottom: 20px !important;
+}
+
+@media (min-width: 576px){
+.card-columns {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 2.25rem !important;
+    -moz-column-gap: 2.25rem !important;
+    column-gap: 2.25rem !important;
+    orphans: 1;
+    widows: 1;
+}
+
+}
+
+.only {
+  justify-content: center;
+align-items: center;
+margin-top: -4em;
+}
+
+@media (min-width: 576px){
+.only {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 1 !important;
+-webkit-column-gap: 2.25rem !important;
+-moz-column-gap: 2.25rem !important;
+column-gap: 2.25rem !important;
+orphans: 1;
+widows: 1;
+}
+}
+.sm-all{
+    background-color: #19294B !important;
+    border-radius: 0 0 1.5em 1.5em;
+}
+
+.sm-all p{
+  padding: 1.5em 2em 1em 1.5em;
+  line-height: 1.8em;
+}
+
+
+.money-img   {
+  padding-left: 30px;
+  padding-right: 33px;
+  padding-top: 30px;
+  height: 50px;
+  width: 50px;
+  padding-bottom: 33px;
+  background: #FCA311;
+  border-radius: 100px;
+}
 

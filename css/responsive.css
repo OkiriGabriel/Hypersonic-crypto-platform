@@ -692,6 +692,23 @@
   .powered .box {
     width: 55%;
   }
+  .icon-1 img{
+    height: 2.5em !important;
+  }
+  .icon-2 img{
+    height: 2.5em !important;
+  }
+  .icon-3 img{
+    height: 2.5em !important;
+  }
+  .icon-4 img{
+    height: 2.5em !important;
+  }
+  .only {
+    justify-content: center;
+    align-items: center;
+    margin-top: 0em;
+}
 }
 
 @media screen and (min-width: 600px) {
@@ -710,6 +727,22 @@
 @media screen and (max-width: 576px) {
   .hero.home-hero {
     height: 133vh !important;
+}
+
+.earnpic-1 .arrow-yellow {
+  position: relative;
+  left: 1em;
+  top: 0.1em;
+}
+.earnpic-2 .arrow-yellow {
+  position: relative;
+  left: 2em;
+  top: 0.1em;
+}
+.earnpic-3 .arrow-yellow {
+  position: relative;
+  left: 2em;
+  top: 0.1em;
 }
 
   .body-text.hero-text {
@@ -1138,6 +1171,33 @@
   font-size: 12px !important;
   color: #B2C2E3 !important;
 }
+
+.earnpic-1 .arrow-yellow {
+  position: relative;
+  left: 1em;
+  top: 0.1em;
+}
+.earnpic-2 .arrow-yellow {
+  position: relative;
+  left: 1em;
+  top: 0.1em;
+}
+.earnpic-3 .arrow-yellow {
+  position: relative;
+  left: 1em;
+  top: 0.1em;
+}
+
+.earnpic-1 h2 {
+  padding-top: 1em !important;
+  padding-left: 2em !important;
+  padding-bottom: 0em;
+  font-size: 11px !important;
+  font-size: 16 !important;
+  color: #B2C2E3 !important;
+}
+
+
 }
 @media screen and (max-width: 375px){
 .hero .title, .hero .title span {
@@ -1145,5 +1205,50 @@
   line-height: 46px !important;
   line-height: 47px !important;
   margin-top: -1em !important;
+}
+
+.earnpic-1 .arrow-yellow {
+  position: relative;
+  left: 1em;
+  top: 0.1em;
+}
+.earnpic-2 .arrow-yellow {
+  position: relative;
+  left: 1em;
+}
+  .earnpic-1 h2 {
+    padding-top: 1em !important;
+    padding-left: 2em !important;
+    padding-bottom: 0em;
+    font-size: 13px !important;
+    font-size: 16 !important;
+    color: #B2C2E3 !important;
+}
+
+.earnpic-2 h2 {
+  padding-top: 1em !important;
+  padding-left: 2em !important;
+  padding-bottom: 0em;
+  font-size: 13px !important;
+  font-size: 16 !important;
+  color: #B2C2E3 !important;
+}
+
+.earnpic-3 h2 {
+  padding-top: 1em !important;
+  padding-left: 2em !important;
+  padding-bottom: 0em;
+  font-size: 13px !important;
+  font-size: 16 !important;
+  color: #B2C2E3 !important;
+}
+
+
+
+
+.earnpic-3 .arrow-yellow {
+  position: relative;
+  left: 1em;
+  top: 0.1em;
 }
 }
